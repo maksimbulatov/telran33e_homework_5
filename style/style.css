@@ -1,0 +1,108 @@
+.container{
+    background-color: turquoise;
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+
+.container .box{
+    position: absolute;
+    background-color: #576574;
+    width: 800px;
+    height: 250px;
+    left: 140px;
+    top: 700px;
+
+}
+.container .info{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    left: 180px;
+    top: 725px;
+    width: 750px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.container .card_1{
+    position: absolute;
+    left: 130px;
+    top: 150px;
+    width: 250px;
+    height: 320px;
+    position: relative;
+    background-color: blue;
+}
+
+.container .card_1 img{
+    padding: 22px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.container .card_1 .title_1{
+    position: absolute;
+    left: 65px;
+    bottom: 10px;
+    font-size: 20px;
+
+}
+
+.container .card_2{
+    position: absolute;
+    left: 400px;
+    bottom: 170px;
+    width: 250px;
+    height: 320px;
+    position: relative;
+    background-color: blue;
+}
+
+.container .card_2 img{
+    padding: 22px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.container .card_2 .title_2{
+    position: absolute;
+    left: 65px;
+    bottom: 10px;
+    font-size: 20px;
+
+}
+
+.container .card_3{
+    position: absolute;
+    left: 670px;
+    bottom: 490px;
+    width: 250px;
+    height: 320px;
+    position: relative;
+    background-color: blue;
+}
+
+.container .card_3 img{
+    padding: 22px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.container .card_3 .title_3{
+    position: absolute;
+    left: 65px;
+    bottom: 10px;
+    font-size: 20px;
+
+}
